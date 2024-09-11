@@ -1,0 +1,38 @@
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .login-container h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .email, .password {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #555555;
+    background-color: #f7f8fc;
+    transition: border-color 0.3s ease-in-out;
+  }
+  

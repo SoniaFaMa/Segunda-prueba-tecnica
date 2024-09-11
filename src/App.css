@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f7f8fc;
+  
+}
+
+.head-container {
+  display: flex;
+  background-color: #007bff;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.head {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+.sidebar {
+  display: flex;
+  justify-content: right;
+  height: 100%; /* Sidebar ocupa toda la altura */
+  padding: 20px;
+  background-color: #f7f8fc;
+  flex-wrap: nowrap;
+  
+}
+
+.cities-container {
+  margin-bottom: 20px; /* Añade espacio debajo de las tarjetas */
+}
+
+
