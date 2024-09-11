@@ -1,0 +1,72 @@
+
+
+.cities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 120px;
+    height: 150px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .london-city, .toronto-city, .singapore-city {
+    cursor: pointer;
+    padding: 12px 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .london-city:hover, .toronto-city:hover, .singapore-city:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-data {
+    display: flex; /* Usar flexbox para alinear las tarjetas en fila */
+     /* Permitir que las tarjetas se envuelvan en caso de espacio insuficiente */
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 20px auto;
+  
+  }
+  
+  .weather-info {
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #f7f8fc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Espacio alrededor de cada tarjeta */
+    text-align: center;
+    flex: 1 1 200px; /* Permite que las tarjetas se ajusten y crezcan según el espacio disponible */
+     /* Establece un ancho máximo para las tarjetas */
+     width: 250px;
+  }
+  
+  .weather-info p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .weather-info img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .cities-container {
+    margin-bottom: 20px; /* Añade espacio debajo de las tarjetas */
+  }
+    
