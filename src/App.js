@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import ContactForm from './Complements/ContactForm/ContactForm.js'
-import TranslatePage from './Complements/TranslatePage/TranslatePage';
-import LogotButtom from './Complements/LogoutButton/LogoutButton';
-import WeatherInfo from './Complements/WeatherInfo/WeatherInfo';
-import Login from './Complements/Login/Login';
+import ContactForm from './Components/ContactForm/ContactForm.js'
+import TranslatePage from './Components/TranslatePage/TranslatePage';
+import LogotButtom from './Components/LogoutButton/LogoutButton';
+import WeatherInfo from './Components/WeatherInfo/WeatherInfo';
+import Login from './Components/Login/Login';
 
 import './App.css';
 
